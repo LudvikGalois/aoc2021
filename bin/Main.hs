@@ -6,6 +6,7 @@ import qualified Day03
 import qualified Day04
 import qualified Day05
 import qualified Day06
+import qualified Day07
 import Shared
 
 selectDay :: Int -> Maybe Solution
@@ -15,6 +16,7 @@ selectDay 3 = Just Day03.solve
 selectDay 4 = Just Day04.solve
 selectDay 5 = Just Day05.solve
 selectDay 6 = Just Day06.solve
+selectDay 7 = Just Day07.solve
 selectDay _ = Nothing
 
 main :: IO ()
